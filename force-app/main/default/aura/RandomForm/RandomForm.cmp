@@ -1,0 +1,4 @@
+<aura:component>
+    <input type="Integer" aura:id="playerNumber"/>
+    <input type="button" onclick="{!c.sendNumber}" value="Send"/>
+</aura:component>	

@@ -1,0 +1,7 @@
+<aura:component controller="ApexController">
+    <aura:handler event="c:OperationEvent" action="{!c.calculating}"/>
+    <input type="Double" aura:id="result" name="result"/>
+    <br></br>
+    <input type="Text" aura:id="randomNumber" name="randomNumber"/>
+    <button onclick="{!c.callApex}">Call Apex method</button>
+</aura:component>	

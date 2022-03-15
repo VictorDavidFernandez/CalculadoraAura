@@ -1,0 +1,11 @@
+<aura:component>
+    <input type="Double" aura:id="operand1"/>
+    <input type="Double" aura:id="operand2"/>
+    <select aura:id="symbol">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="button" onclick="{!c.calculation}" value="Result"/>
+</aura:component>	

@@ -1,0 +1,7 @@
+<aura:component>
+    <input type="text" aura:id="name" name="Name" placeholder="Name"/>
+    <input type="text" aura:id="surname" name="Surname" placeholder="Surname"/>
+    <input type="Integer" aura:id="age" name="Age" placeholder="Age"/>
+
+    <input type="button" onclick="{!c.sendData}" value="Send"/>
+</aura:component>	

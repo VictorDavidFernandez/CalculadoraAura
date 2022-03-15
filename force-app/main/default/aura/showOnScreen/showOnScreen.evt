@@ -1,0 +1,5 @@
+<aura:event type="APPLICATION" description="Event template">
+    <aura:attribute name="eventName" type="String"></aura:attribute>
+    <aura:attribute name="eventSurname" type="String"></aura:attribute>
+    <aura:attribute name="eventAge" type="Integer"></aura:attribute>
+</aura:event>

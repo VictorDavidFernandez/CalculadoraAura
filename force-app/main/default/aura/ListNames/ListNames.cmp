@@ -1,0 +1,23 @@
+<aura:component>
+    <aura:handler event="c:showOnScreen" action="{!c.addToTable}"/>
+    <aura:attribute name="output" type="Object[]"/>
+
+    <table>
+
+        <aura:iteration items="{!v.output}" var="out" indexVar="index">
+          <tr>
+              {!index}
+          <td>
+              {!out.oName}
+          </td>
+          <td>
+              {!out.oSurname}
+          </td>
+           <td>
+              {!out.oAge}
+          </td>
+          </tr>    
+          </aura:iteration>
+          
+      </table>
+</aura:component>	

@@ -1,0 +1,7 @@
+<aura:component controller="RandomNumberApexController">
+    
+    <input type="Hidden" aura:id="randomNumber" id="randomNumber"/>
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />    
+    <aura:handler event="c:checkingTheNumber" action="{!c.checkNumber}"/>
+    <div></div>
+</aura:component>	
